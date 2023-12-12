@@ -1,6 +1,20 @@
 # South Coast Golf Club
 
+
 # Goal for this Project
+
+Welcome to South Coast Golf Club! Our website is your gateway to the world of golf. We aim to engage and attract potential members and visitors by providing essential information and details on how to join our vibrant golfing community.
+
+Our website goals include:
+
+1. Club Introduction: Discover South Coast Golf Club's history, facilities, and the welcoming community of golfers that call it home.
+
+2. Join Our Community: Learn about the membership options available and how to become a part of our golfing family. Whether you're a seasoned pro or new to the game, we have membership opportunities to suit your needs.
+
+3. Connect with Us: Easily reach out to us via social media platforms or our contact form. We're here to answer your questions, extend a warm welcome to golfers of all levels, and keep you updated on club news and events.
+
+At South Coast Golf Club, golf isn't just a sport; it's a lifestyle. Join us, play, and embrace the beauty of the game. Explore our website, and let's embark on a memorable golfing journey together!
+
 
 # Table of Contents
 
