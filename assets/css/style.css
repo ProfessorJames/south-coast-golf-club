@@ -1,3 +1,4 @@
+/* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
 
 
@@ -69,10 +70,23 @@ h1 {
     margin-bottom: 1rem;
 }
 
-/* Content */
+/* Navbar styles with dropdwon toggle */
+
+nav {
+    position: absolute;
+    background-color: var(--white);
+    width: 100%;
+    padding: 0 1.6rem;
+    display: none;
+    left: 0;
+}
+
+
+/* Main Content */
 
 main {
     background-color: var(--white);
+    /* make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 
 }
