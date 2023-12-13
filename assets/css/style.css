@@ -49,11 +49,12 @@ header {
     z-index: 100;
     width: 100%;
     padding: 0 2rem;
+    border-bottom: 2rem double var(--black)
 }
 
 header a {
     text-decoration: none;
-    color: var(--white);
+    color: var(--black);
 }
 
 h1 {
@@ -70,7 +71,7 @@ h1 {
     margin-bottom: 1rem;
 }
 
-/* Navbar styles with dropdwon toggle */
+/* Navbar styles with dropdown toggle */
 
 nav {
     position: absolute;
@@ -81,6 +82,19 @@ nav {
     left: 0;
 }
 
+/* Nav Menu Toggle */
+
+#nav-menu-toggle:checked~nav {
+    display: block;
+}
+
+#nav-menu-toggle {
+    display: none;
+}
+
+.nav-menu-toggle-label {
+    font-size: 3rem;
+}
 
 /* Main Content */
 
