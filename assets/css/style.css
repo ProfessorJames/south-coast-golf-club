@@ -50,9 +50,23 @@ header {
     padding: 0 2rem;
 }
 
+header a {
+    text-decoration: none;
+    color: var(--white);
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     color: var(--white);
+}
+
+#menu {
+    list-style-type: none;
+    font-size: 2rem;
+}
+
+#menu>li {
+    margin-bottom: 1rem;
 }
 
 /* Content */
