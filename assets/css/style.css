@@ -129,3 +129,8 @@ footer {
     color: var(--white);
     font-size: 150%;
 }
+
+
+/* media queries */
+
+@media screen and (min-width: 768px) {}
