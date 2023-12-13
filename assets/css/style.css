@@ -98,7 +98,8 @@ nav {
 }
 
 .nav-menu-toggle-label {
-    font-size: 3rem;
+    font-size: 3.5rem;
+    color: var(--white);
 }
 
 /* Main Content */
@@ -131,6 +132,28 @@ footer {
 }
 
 
-/* media queries */
+/* Media query: tablets and larger (768px and up) */
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        position: relative;
+        display: block;
+        width: fit-content;
+        padding: 2rem;
+        border-bottom: none;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-right: 1.5rem;
+    }
+
+    .nav-menu-toggle-label {
+        display: none;
+    }
+}
