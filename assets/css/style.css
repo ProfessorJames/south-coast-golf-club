@@ -44,6 +44,10 @@ body {
 
 header {
     background-color: var(--green);
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    padding: 0 2rem;
 }
 
 h1 {
