@@ -46,6 +46,11 @@ header {
     background-color: var(--green);
 }
 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--white);
+}
+
 /* Content */
 
 main {
