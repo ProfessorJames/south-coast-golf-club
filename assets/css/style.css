@@ -3,6 +3,14 @@
 
 /* Asterisk wildcard selector to override default styles added by teh browser */
 
+:root {
+    /* Colors */
+    --white: #ffffff;
+    --black: #000;
+    --green: #004225;
+}
+
+
 html {
     font-size: 62.5%;
 }
@@ -35,13 +43,13 @@ body {
 /* Header */
 
 header {
-    background-color: blue;
+    background-color: var(--green);
 }
 
 /* Content */
 
 main {
-    background-color: green;
+    background-color: var(--white);
     flex: 1 0 auto;
 
 }
@@ -49,5 +57,5 @@ main {
 /* Footer */
 
 footer {
-    background-color: black;
+    background-color: var(--black);
 }
