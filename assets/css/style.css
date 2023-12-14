@@ -119,6 +119,25 @@ main {
     position: relative;
 }
 
+
+/* Course Section */
+#course>h2 {
+    color: var(--green);
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 200%;
+
+}
+
+#course>p {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0 2rem;
+    font-size: 115%;
+}
+
 /* Footer */
 
 footer {
