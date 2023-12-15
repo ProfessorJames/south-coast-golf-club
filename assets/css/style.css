@@ -266,4 +266,16 @@ footer {
     .nav-menu-toggle-label {
         display: none;
     }
+
+
+    /* Form */
+
+    #contact {
+        /* position: center; */
+    }
+
+    #contact-form {
+        max-width: 500px;
+        position: center;
+    }
 }
