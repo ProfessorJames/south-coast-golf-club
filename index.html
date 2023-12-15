@@ -37,7 +37,7 @@
           <li><a href="#membership">Membership</a></li>
           <li><a href="">Visitors</a></li>
           <li><a href="">Gallery</a></li>
-          <li><a href="">Contact Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
         </ul>
       </nav>
     </header>
@@ -64,6 +64,29 @@
                 <h3>Students: €350</h3>
                 <h3>Juniors: €200</h3>
             </div>
+
+        </section>
+        <section id="contact">
+            <form id="contact-form" action="https://formdump.codeinstitute.net" method="POST">
+                <h2>Contact Us</h2>
+                <br>
+                <label for="first_name">Your First Name</label>
+                <input type="text" id="first_name" name="first_name" required>
+                <br>
+                <label for="last_name">Your Last Name</label>
+                <input type="text" id="last_name" name="last_name" required>
+                <br>
+                <label for="email_address">Your Email</label>
+                <input type="email" name="email_address" id="email_address" required>
+                <br>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" required>
+                <br>
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="4" cols="40" required></textarea>
+                <br>
+                <button type="submit" class="send-button">Send</button>
+            </form>
 
         </section>
     </main>
