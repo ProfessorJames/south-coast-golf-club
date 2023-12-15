@@ -172,6 +172,14 @@ main {
 
 /* Form */
 
+input[type="text"],
+input[type="email"] {
+    width: 65%
+}
+
+#contact-form {
+    padding: 1rem;
+}
 
 
 /* Footer */
