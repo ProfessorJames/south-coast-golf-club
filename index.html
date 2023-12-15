@@ -70,14 +70,20 @@
             <form id="contact-form" action="https://formdump.codeinstitute.net" method="POST">
                 <h2>Contact Us</h2>
                 <br>
-                <label for="first_name">Your First Name</label>
-                <input type="text" id="first_name" name="first_name" placeholder="First Name" required>
+                <div>
+                    <label for="first_name">Your First Name</label>
+                    <input type="text" id="first_name" name="first_name" class="form-input-text" placeholder="First Name" required>
+                </div>
                 <br>
-                <label for="last_name">Your Last Name</label>
-                <input type="text" id="last_name" name="last_name" placeholder="Last Name"  required>
+                <div>
+                    <label for="last_name">Your Last Name</label>
+                    <input type="text" id="last_name" name="last_name"  class="form-input-text" placeholder="Last Name"  required>
+                </div>
                 <br>
-                <label for="email_address">Your Email Address</label>
-                <input type="email" name="email_address" id="email_address" placeholder="Email Address" required>
+                <div>
+                    <label for="email_address">Your Email Address</label>
+                    <input type="email" name="email_address" id="email_address" class="form-input-text" placeholder="Email Address" required>
+                </div>
                 <br>
                 <button type="submit" class="send-button">Send</button>
             </form>
