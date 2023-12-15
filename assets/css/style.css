@@ -76,6 +76,11 @@ h1 {
     margin-bottom: 1rem;
 }
 
+#menu a:hover,
+.logo:hover {
+    color: var(--gold);
+}
+
 /* Navbar styles with dropdown toggle */
 
 nav {
