@@ -204,8 +204,9 @@ main {
 
 #contact label {
     display: block;
-    font-size: 1.6rem;
+    font-size: 2.0rem;
     margin-bottom: 5px;
+    color: var(--gold);
 }
 
 #contact input[type="text"],
