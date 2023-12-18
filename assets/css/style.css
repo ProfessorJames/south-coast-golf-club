@@ -151,14 +151,16 @@ main {
 }
 
 /* Membership Section */
-#membership {
+.membership div {
     padding: 2rem;
-    margin-bottom: 2rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+    margin-right: 0px;
 }
 
 /* Style the membership benefits section */
 #membership-benefits {
-    margin-right: 2rem;
+    margin-right: 1rem;
     padding: 2rem;
     background-color: var(--light-gray);
     border-radius: 5px;
@@ -189,7 +191,7 @@ main {
 /* Style the membership plans section */
 
 #membership-plans {
-    margin-right: 2rem;
+    margin-right: 1rem;
     padding: 2rem;
     background-color: #f0f0f0;
     border-radius: 5px;
