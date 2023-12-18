@@ -277,6 +277,13 @@ footer {
     font-size: 150%;
 }
 
+#social-media i:hover {
+    color: var(--gold);
+    font-size: 300%;
+}
+
+
+
 #contact-phone-email {
     text-align: center;
     padding: 1.75rem;
@@ -286,13 +293,20 @@ footer {
 #contact-phone-email a {
     list-style-type: none;
     color: var(--white);
-    /* font-size: 110%; */
+    text-decoration: none;
+
+}
+
+.phone,
+.email {
+    padding: 1rem;
     text-decoration: none;
 }
 
-#phone {
-    padding: 1rem;
-    text-decoration: none;
+#contact-phone-email a:hover {
+    color: var(--gold);
+    font-size: 150%;
+
 }
 
 /* Media query: tablets and larger (768px and up) */
