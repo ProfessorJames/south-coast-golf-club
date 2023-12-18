@@ -169,7 +169,7 @@ main {
 }
 
 #membership-benefits h2 {
-    font-size: 2.4rem;
+    font-size: 200%;
     margin-bottom: 1rem;
     color: var(--green);
 }
@@ -200,7 +200,7 @@ main {
 }
 
 #membership-plans h2 {
-    font-size: 2.4rem;
+    font-size: 200%;
     margin-bottom: 1rem;
     color: var(--green);
 }
@@ -359,7 +359,6 @@ footer {
 
 #social-media i:hover {
     color: var(--gold);
-    /* font-size: 200%; */
 }
 
 
@@ -385,8 +384,6 @@ footer {
 
 #contact-phone-email a:hover {
     color: var(--gold);
-    /* font-size: 125%; */
-
 }
 
 /* Media query: small mobiles (300px and up) */
