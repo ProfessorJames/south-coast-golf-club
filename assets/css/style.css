@@ -277,13 +277,13 @@ footer {
     font-size: 150%;
 }
 
-#contact {
+#contact-phone-email {
     text-align: center;
     padding: 1.75rem;
     justify-content: space-evenly;
 }
 
-#contact a {
+#contact-phone-email a {
     list-style-type: none;
     color: var(--white);
     /* font-size: 110%; */
