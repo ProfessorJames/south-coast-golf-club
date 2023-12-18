@@ -223,6 +223,17 @@ main {
 
 }
 
+#membership-plans .offers {
+    width: 80%;
+    color: var(--black);
+    margin-bottom: 2rem;
+
+}
+
+#membership-plans .offers h3 {
+    margin-bottom: 0.75rem;
+}
+
 
 /* Contact-Location section */
 .contact-location div {
@@ -420,10 +431,6 @@ footer {
             #membership-benefits,
             #membership-plans {
                 height: 42rem;
-            }
-
-            #membership-plans .offers {
-                width: 80%
             }
 
             /* Contact-Location section */
