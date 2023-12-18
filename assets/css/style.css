@@ -318,14 +318,15 @@ footer {
     }
 
 
-    /* Form */
+    /* Contact-Location section */
 
-    #contact {
-        /* position: center; */
+    .contact-location {
+        display: flex;
+        flex-wrap: row wrap;
+        justify-content: space-evenly;
     }
 
-    #contact-form {
-        max-width: 500px;
-        position: center;
+    .contact-location div {
+        width: 48%;
     }
 }
