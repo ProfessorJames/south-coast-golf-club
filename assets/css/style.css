@@ -125,6 +125,7 @@ main {
 
 /* Hero Section */
 #hero {
+    margin-top: 12rem;
     width: 100%;
     height: 50rem;
     background: url(../images/hero-image.jpg) no-repeat center center/cover;
@@ -354,80 +355,114 @@ footer {
 
 }
 
-/* Media query: tablets and larger (768px and up) */
+/* Media query: small mobiles (300px and up) */
+@media screen and (min-width: 300px) {
 
-@media screen and (min-width: 768px) {
-
-    /* Header */
-    nav {
+    /* Hero */
+    #hero {
+        margin-top: 10rem;
+        width: 100%;
+        height: 50rem;
+        background: url(../images/hero-image.jpg) no-repeat center center/cover;
         position: relative;
-        display: block;
-        width: fit-content;
-        padding: 2rem;
-        border-bottom: none;
     }
 
-    #menu {
-        display: flex;
-    }
+    /* Media query: medium mobiles (470px and up) */
+    @media screen and (min-width: 470px) {
 
-    #menu>li {
-        padding-right: 1.5rem;
-    }
+        /* Hero */
+        #hero {
+            margin-top: 6rem;
+        }
 
-    .nav-menu-toggle-label {
-        display: none;
-    }
+        /* Media query: tablets and larger (768px and up) */
 
-    /* Style the membership section */
-    .membership {
-        display: flex;
-        flex-wrap: row wrap;
-        justify-content: space-evenly;
-    }
+        @media screen and (min-width: 768px) {
 
-    .membership div {
-        width: 48%;
-    }
+            /* Header */
+            nav {
+                position: relative;
+                display: block;
+                width: fit-content;
+                padding: 2rem;
+                border-bottom: none;
+            }
 
-    #membership-benefits,
-    #membership-plans {
-        height: 42rem;
-    }
+            #menu {
+                display: flex;
+            }
 
-    #membership-plans .offers {
-        width: 80%
-    }
+            #menu>li {
+                padding-right: 1.5rem;
+            }
 
-    /* Contact-Location section */
+            .nav-menu-toggle-label {
+                display: none;
+            }
 
-    .contact-location {
-        display: flex;
-        flex-wrap: row wrap;
-        justify-content: space-evenly;
-    }
+            /* Hero */
+            #hero {
+                margin-top: 11.8rem;
+            }
 
-    .contact-location div {
-        width: 48%;
-    }
-}
 
-/* Media query: tablets and larger (992px and up) */
-@media screen and (min-width: 992px) {
+            /* Style the membership section */
+            .membership {
+                display: flex;
+                flex-wrap: row wrap;
+                justify-content: space-evenly;
+            }
 
-    /* Style the membership section */
-    .membership {
-        display: flex;
-        flex-wrap: row wrap;
-        justify-content: space-evenly;
-    }
+            .membership div {
+                width: 48%;
+            }
 
-    .membership div {
-        width: 48%;
-    }
+            #membership-benefits,
+            #membership-plans {
+                height: 42rem;
+            }
 
-    #membership-benefits,
-    #membership-plans {
-        height: 30rem;
-    }
-}
+            #membership-plans .offers {
+                width: 80%
+            }
+
+            /* Contact-Location section */
+
+            .contact-location {
+                display: flex;
+                flex-wrap: row wrap;
+                justify-content: space-evenly;
+            }
+
+            .contact-location div {
+                width: 48%;
+            }
+        }
+
+        /* Media query: tablets and larger (992px and up) */
+        @media screen and (min-width: 992px) {
+
+            /* Style the membership section */
+            .membership {
+                display: flex;
+                flex-wrap: row wrap;
+                justify-content: space-evenly;
+            }
+
+            .membership div {
+                width: 48%;
+            }
+
+            #membership-benefits,
+            #membership-plans {
+                height: 30rem;
+            }
+        }
+
+        /* Media query: tablets and larger (1020px and up) */
+        @media screen and (min-width: 1020px) {
+
+            #hero {
+                margin-top: 9.4rem;
+            }
+        }
