@@ -152,29 +152,28 @@ main {
     margin-bottom: 5rem;
 }
 
-#membership>h2,
-#membership>p {
+#membership-benefits h2,
+#membership-benefits p
+#membership-plans>h2,
+#membership-plans>p {
     color: var(--silver);
     text-align: center;
     font-size: 200%;
     padding-top: 2rem;
 }
 
-#membership>p {
-    font-size: 100%;
-    color: var(--white);
-}
-
-#membership h3 {
+#membership-plans h3 {
     color: var(--white);
     text-align: center;
     margin-top: 2rem;
-    /* margin-bottom: 2rem; */
     font-size: 100%;
     color: var(--gold);
     padding-bottom: 2rem;
 }
 
+#membership-benefits ul {
+    list-style-type: circle;
+}
 
 /* Form */
 
