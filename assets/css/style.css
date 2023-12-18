@@ -15,6 +15,7 @@
     --gray: #ccc;
     --light-gray: #f0f0f0;
     --yellow: #E8AB16;
+    --dark-gray: #666;
 }
 
 
@@ -134,7 +135,7 @@ main {
 
 
 /* Course Section */
-#course>h2 {
+/* #course>h2 {
     color: var(--green);
     text-align: center;
     margin-top: 2rem;
@@ -149,6 +150,42 @@ main {
     margin-bottom: 1rem;
     padding: 0 2rem;
     font-size: 115%;
+} */
+
+#course {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+/* Style for the header text */
+#course>h2 {
+    font-size: 200%;
+    color: var(--green);
+    margin-bottom: 10px;
+}
+
+/* Style for the subheader text */
+#course p:first-of-type {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--gold);
+    margin-bottom: 2rem;
+}
+
+/* Style for regular paragraphs */
+#course p {
+    font-size: 1.6rem;
+    color: var(--dark-gray);
+    margin-bottom: 2rem;
+}
+
+#course i {
+    font-size: 2.4rem;
+    color: var(--green);
+    margin-right: 1rem;
 }
 
 /* Membership Section */
