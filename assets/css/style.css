@@ -224,7 +224,6 @@ main {
 
 
 /* Contact-Location section */
-
 .contact-location div {
     padding: 2rem;
     border-radius: 5px;
@@ -264,7 +263,7 @@ main {
     border: 1px solid var(--gray);
     border-radius: 4px;
     font-size: 1.6rem;
-    background-color: var(--silver);
+    background-color: var(--white);
     color: var(--black);
 }
 
@@ -394,6 +393,10 @@ footer {
     #membership-benefits,
     #membership-plans {
         height: 42rem;
+    }
+
+    #membership-plans .offers {
+        width: 80%
     }
 
     /* Contact-Location section */
