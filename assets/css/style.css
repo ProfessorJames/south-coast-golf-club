@@ -13,6 +13,7 @@
     --gold: #DAA520;
     --metallic-gold: #ffd700;
     --gray: #ccc;
+    --light-gray: #f0f0f0;
     --yellow: #E8AB16;
 }
 
@@ -151,31 +152,42 @@ main {
 
 /* Membership Section */
 #membership {
-    background-color: var(--green);
-    margin-bottom: 5rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
 }
 
-#membership-benefits h2,
-#membership-benefits p #membership-plans>h2,
-#membership-plans>p {
-    color: var(--silver);
-    text-align: center;
-    font-size: 200%;
-    padding-top: 2rem;
+/* Style the membership benefits section */
+#membership-benefits {
+    margin-right: 2rem;
+    padding: 2rem;
+    background-color: var(--light-gray);
+    border-radius: 5px;
+    min-height: 32rem;
+    width: 100%;
 }
 
-#membership-plans h3 {
-    color: var(--white);
-    text-align: center;
-    margin-top: 2rem;
-    font-size: 100%;
-    color: var(--gold);
-    padding-bottom: 2rem;
+#membership-benefits h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    color: var(--green);
 }
 
 #membership-benefits ul {
-    list-style-type: circle;
+    list-style-type: disc;
+    margin-left: 2rem;
+    padding: 0;
 }
+
+#membership-benefits li {
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+}
+
+#membership-benefits p {
+    margin-bottom: 2rem;
+}
+
+/* Style the membership plans section */
 
 /* Contact-Location section */
 
