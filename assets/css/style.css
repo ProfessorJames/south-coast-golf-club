@@ -240,6 +240,15 @@ main {
     margin-left: 1rem;
 }
 
+#gallery h2 {
+    color: var(--green);
+    padding-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 200%;
+
+}
+
 .gallery-image img {
     max-width: 100%;
     height: auto;
@@ -458,6 +467,11 @@ footer {
                 width: 100%
             }
 
+            #gallery h2 {
+                text-align: center;
+
+            }
+
             /* Contact-Location section */
 
             .contact-location {
@@ -489,6 +503,11 @@ footer {
             #membership-plans {
                 height: 30rem;
             }
+
+            #gallery h2 {
+                text-align: center;
+
+            }
         }
 
         /* Media query: tablets and larger (1020px and up) */
@@ -507,5 +526,10 @@ footer {
 
             .gallery-image {
                 width: 95%;
+            }
+
+            #gallery h2 {
+                text-align: center;
+
             }
         }
