@@ -162,8 +162,8 @@ main {
     padding: 2rem;
     background-color: var(--light-gray);
     border-radius: 5px;
-    min-height: 32rem;
-    width: 100%;
+    margin-bottom: 2rem;
+    min-width: 26rem;
 }
 
 #membership-benefits h2 {
@@ -190,13 +190,11 @@ main {
 /* Style the membership plans section */
 
 #membership-plans {
-    flex: 1;
     margin-right: 2rem;
     padding: 2rem;
     background-color: #f0f0f0;
     border-radius: 5px;
-    min-height: 32rem;
-    width: 100%;
+    min-width: 26rem;
 }
 
 #membership-plans h2 {
@@ -214,7 +212,9 @@ main {
     background-color: var(--white);
     border: 1px solid var(--silver);
     border-radius: 5px;
-    padding: 1rem;
+    padding: 2rem;
+    margin: 0 1rem;
+    margin-bottom: 1rem;
 }
 
 #membership-plans h3 {
@@ -232,13 +232,13 @@ main {
     margin: 0 1rem;
     background-color: var(--green);
     color: var(--white);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* Style the contact section */
 #contact h2 {
     font-size: 2.4rem;
-    margin-bottom: 1remx;
+    margin-bottom: 1rem;
     color: var(--yellow);
     margin-bottom: 1rem;
 }
@@ -250,7 +250,7 @@ main {
 
 #contact label {
     display: block;
-    font-size: 2.0rem;
+    font-size: 2rem;
     margin-bottom: 5px;
     color: var(--gold);
 }
@@ -378,6 +378,25 @@ footer {
 
     .nav-menu-toggle-label {
         display: none;
+    }
+
+    /* Style the membership section */
+    #membership {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: flex-start;
+        padding: 2rem;
+    }
+
+    #membership-benefits {
+        background-color: var(--light-gray);
+        border-radius: 5px;
+        padding: 2rem;
+    }
+
+    #membership-plans {
+        min-height: 32rem;
     }
 
 
