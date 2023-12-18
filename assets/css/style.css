@@ -279,7 +279,7 @@ footer {
 
 #social-media i:hover {
     color: var(--gold);
-    font-size: 300%;
+    /* font-size: 200%; */
 }
 
 
@@ -305,7 +305,7 @@ footer {
 
 #contact-phone-email a:hover {
     color: var(--gold);
-    font-size: 150%;
+    /* font-size: 125%; */
 
 }
 
