@@ -189,6 +189,40 @@ main {
 
 /* Style the membership plans section */
 
+#membership-plans {
+    flex: 1;
+    margin-right: 2rem;
+    padding: 2rem;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    min-height: 32rem;
+    width: 100%;
+}
+
+#membership-plans h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    color: var(--green);
+}
+
+#membership-plans p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+#membership-plans div {
+    background-color: var(--white);
+    border: 1px solid var(--silver);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+#membership-plans h3 {
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+
+
 /* Contact-Location section */
 
 .contact-location div {
