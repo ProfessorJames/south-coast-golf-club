@@ -163,7 +163,6 @@ main {
     background-color: var(--light-gray);
     border-radius: 5px;
     margin-bottom: 2rem;
-    min-width: 26rem;
 }
 
 #membership-benefits h2 {
@@ -194,7 +193,7 @@ main {
     padding: 2rem;
     background-color: #f0f0f0;
     border-radius: 5px;
-    min-width: 26rem;
+    margin-bottom: 1rem;
 }
 
 #membership-plans h2 {
@@ -214,12 +213,11 @@ main {
     border-radius: 5px;
     padding: 2rem;
     margin: 0 1rem;
-    margin-bottom: 1rem;
 }
 
 #membership-plans h3 {
     font-size: 1.8rem;
-    margin: 1rem 0;
+
 }
 
 
@@ -381,24 +379,20 @@ footer {
     }
 
     /* Style the membership section */
-    #membership {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-        align-items: flex-start;
-        padding: 2rem;
+    .membership {
+        display: flex;
+        flex-wrap: row wrap;
+        justify-content: space-evenly;
     }
 
-    #membership-benefits {
-        background-color: var(--light-gray);
-        border-radius: 5px;
-        padding: 2rem;
+    .membership div {
+        width: 48%;
     }
 
+    #membership-benefits,
     #membership-plans {
-        min-height: 32rem;
+        height: 42rem;
     }
-
 
     /* Contact-Location section */
 
@@ -410,5 +404,25 @@ footer {
 
     .contact-location div {
         width: 48%;
+    }
+}
+
+/* Media query: tablets and larger (992px and up) */
+@media screen and (min-width: 992px) {
+
+    /* Style the membership section */
+    .membership {
+        display: flex;
+        flex-wrap: row wrap;
+        justify-content: space-evenly;
+    }
+
+    .membership div {
+        width: 48%;
+    }
+
+    #membership-benefits,
+    #membership-plans {
+        height: 30rem;
     }
 }
