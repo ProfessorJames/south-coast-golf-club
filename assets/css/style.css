@@ -87,6 +87,10 @@ main {
 
 }
 
+/* Iframe */
+iframe {
+    border: 0;
+}
 
 /* Navbar styles with dropdown toggle */
 
