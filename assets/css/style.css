@@ -212,7 +212,7 @@ main {
     padding: 2rem;
     background-color: #f0f0f0;
     border-radius: 5px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 #membership-plans h2 {
@@ -466,11 +466,6 @@ footer {
 
     .membership div .offers {
         width: 95%;
-    }
-
-    #membership-benefits,
-    #membership-plans {
-        height: 48rem;
     }
 
     /* Gallery section */
