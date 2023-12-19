@@ -234,19 +234,15 @@ main {
     margin: 0 1rem;
 }
 
-#membership-plans h3 {
-    font-size: 1.8rem;
-
-}
-
-#membership-plans .offers {
+#membership-plans .offers ul {
     width: 80%;
     color: var(--black);
-    margin-bottom: 2rem;
+    list-style-type: none;
 
 }
 
-#membership-plans .offers h3 {
+#membership-plans .offers li {
+    font-size: 1.8rem;
     margin-bottom: 0.75rem;
 }
 
@@ -470,7 +466,7 @@ footer {
 
     #membership-benefits,
     #membership-plans {
-        height: 42rem;
+        height: 48rem;
     }
 
     /* Gallery section */
