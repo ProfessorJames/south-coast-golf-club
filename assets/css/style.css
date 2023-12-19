@@ -96,6 +96,11 @@ nav {
     top: 100%;
 }
 
+/* Icons */
+.icons {
+    padding-right: 0.5rem;
+}
+
 /* Nav Menu Toggle */
 
 #nav-menu-toggle:checked~nav {
