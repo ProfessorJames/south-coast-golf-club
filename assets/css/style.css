@@ -166,7 +166,6 @@ header a {
 
 /* Style for regular paragraphs */
 #course p {
-    font-size: 1.6rem;
     color: var(--dark-gray);
     margin-bottom: 2rem;
 }
@@ -207,7 +206,6 @@ header a {
 }
 
 #membership-benefits li {
-    font-size: 1.6rem;
     margin-bottom: 0.5rem;
 }
 
@@ -232,7 +230,6 @@ header a {
 }
 
 #membership-plans p {
-    font-size: 1.6rem;
     margin-bottom: 2rem;
 }
 
@@ -300,7 +297,6 @@ header a {
 }
 
 #contact p {
-    font-size: 1.6rem;
     margin-bottom: 1rem;
 }
 
@@ -319,7 +315,6 @@ header a {
     margin-bottom: 1.5rem;
     border: 1px solid var(--gray);
     border-radius: 0.5rem;
-    font-size: 1.6rem;
     background-color: var(--white);
     color: var(--black);
 }
@@ -345,10 +340,6 @@ header a {
     margin-bottom: 1rem;
     color: var(--yellow);
     ;
-}
-
-#location p {
-    font-size: 1.6rem;
 }
 
 /* Style the Google Maps iframe */
