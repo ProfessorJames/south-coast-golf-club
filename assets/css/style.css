@@ -500,22 +500,6 @@ footer {
 /* Media query: tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
 
-    /* Style the membership section */
-    #membership {
-        display: flex;
-        flex-wrap: row wrap;
-        justify-content: space-evenly;
-    }
-
-    .membership div {
-        width: 48%;
-    }
-
-    #membership-benefits,
-    #membership-plans {
-        height: 30rem;
-    }
-
     #gallery h2 {
         text-align: center;
 
