@@ -464,6 +464,10 @@ footer {
         width: 48%;
     }
 
+    .membership div .offers {
+        width: 95%;
+    }
+
     #membership-benefits,
     #membership-plans {
         height: 48rem;
