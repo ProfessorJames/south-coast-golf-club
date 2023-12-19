@@ -153,12 +153,12 @@ header a {
 #course>h2 {
     font-size: 200%;
     color: var(--green);
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 /* Style for the subheader text */
 #course p:first-of-type {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: bold;
     color: var(--gold);
     margin-bottom: 2rem;
@@ -180,9 +180,9 @@ header a {
 /* Membership Section */
 .membership div {
     padding: 2rem;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     margin-left: 1rem;
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 /* Style the membership benefits section */
@@ -190,7 +190,7 @@ header a {
     margin-right: 1rem;
     padding: 2rem;
     background-color: var(--light-gray);
-    border-radius: 5px;
+    border-radius: 0.5rem;
     margin-bottom: 2rem;
 }
 
@@ -208,7 +208,7 @@ header a {
 
 #membership-benefits li {
     font-size: 1.6rem;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
 }
 
 #membership-benefits p {
@@ -221,7 +221,7 @@ header a {
     margin-right: 1rem;
     padding: 2rem;
     background-color: #f0f0f0;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     margin-bottom: 2rem;
 }
 
@@ -239,7 +239,7 @@ header a {
 #membership-plans div {
     background-color: var(--white);
     border: 1px solid var(--silver);
-    border-radius: 5px;
+    border-radius: 0.5rem;
     padding: 2rem;
     margin: 0 1rem;
 }
@@ -276,15 +276,15 @@ header a {
     height: auto;
     border: 1px solid var(--gray);
     margin: 1rem 0;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
 }
 
 /* Contact-Location section */
 .contact-location div {
     padding: 2rem;
-    border-radius: 5px;
-    box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
     margin: 0 1rem;
     background-color: var(--green);
     color: var(--white);
@@ -307,7 +307,7 @@ header a {
 #contact label {
     display: block;
     font-size: 2rem;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
     color: var(--gold);
 }
 
@@ -318,7 +318,7 @@ header a {
     padding: 1rem;
     margin-bottom: 1.5rem;
     border: 1px solid var(--gray);
-    border-radius: 4px;
+    border-radius: 0.5rem;
     font-size: 1.6rem;
     background-color: var(--white);
     color: var(--black);
@@ -329,7 +329,7 @@ header a {
     color: var(--white);
     padding: 1rem 2rem;
     border: none;
-    border-radius: 4px;
+    border-radius: 0.5rem;
     cursor: pointer;
     font-size: 1.8rem;
 }
@@ -356,7 +356,7 @@ header a {
     width: 100%;
     height: 40rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
 
 /* Footer */
