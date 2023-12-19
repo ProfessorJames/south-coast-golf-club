@@ -132,7 +132,7 @@ header a {
 
 /* Hero Section */
 #hero {
-    margin-top: 12rem;
+    margin-top: 6.2rem;
     width: 100%;
     height: 50rem;
     background: url(../images/hero-image.jpg) no-repeat center center/cover;
@@ -401,28 +401,6 @@ footer {
 
 /* Media Queries */
 
-/* Media query: small mobiles (300px and up) */
-@media screen and (min-width: 300px) {
-
-    /* Hero */
-    #hero {
-        margin-top: 10rem;
-        width: 100%;
-        height: 50rem;
-        background: url(../images/hero-image.jpg) no-repeat center center/cover;
-        position: relative;
-    }
-}
-
-/* Media query: medium mobiles (470px and up) */
-/* @media screen and (min-width: 470px) {
-/* 
-    /* Hero */
-/* #hero { */
-/* margin-top: 6rem; */
-/* } */
-/* } */
-
 /* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
@@ -447,12 +425,6 @@ footer {
     .nav-menu-toggle-label {
         display: none;
     }
-
-    /* Hero */
-    #hero {
-        margin-top: 11.8rem;
-    }
-
 
     /* Style the membership section */
     .membership {
@@ -507,12 +479,8 @@ footer {
     }
 }
 
-/* Media query: tablets and larger (1020px and up) */
-@media screen and (min-width: 1020px) {
-
-    #hero {
-        margin-top: 9.4rem;
-    }
+/* Media query: tablets and larger (1200px and up) */
+@media screen and (min-width: 1200px) {
 
     /* Gallery section */
     .gallery-container {
