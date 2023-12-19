@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
 
 
-/* Asterisk wildcard selector to override default styles added by teh browser */
+/* Asterisk wildcard selector to override default styles added by the browser */
 
 :root {
     /* Colors */
@@ -18,20 +18,15 @@
     --dark-gray: #666;
 }
 
-
-html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-}
-
-body {
-    font-size: 1.6rem;
-}
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 html,
@@ -43,6 +38,7 @@ body {
 /* Body */
 
 body {
+    font-size: 1.6rem;
     min-height: 100%;
     display: flex;
     flex-direction: column;
