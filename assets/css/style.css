@@ -81,7 +81,8 @@ header {
 
 main {
     background-color: var(--white);
-    /* make main element take up any surplus space to push footer down */
+
+    /* Expand main element to push footer down */
     flex: 1 0 auto;
 
 }
