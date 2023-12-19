@@ -307,9 +307,7 @@ header a {
     color: var(--gold);
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact textarea {
+.form-inputs {
     width: 85%;
     padding: 1rem;
     margin-bottom: 1.5rem;
@@ -317,6 +315,8 @@ header a {
     border-radius: 0.5rem;
     background-color: var(--white);
     color: var(--black);
+    font-size: 2rem;
+
 }
 
 #contact input[type="submit"] {
