@@ -220,4 +220,15 @@ Manual testing was essential to ensure the website functions correctly and meets
 * Tested the website on various devices and screen sizes to ensure a consistent and user-friendly experience across platforms.
 
 7. Validation
-*
+
+* Each line of code been meticulously reviewed. Changes were made where necessary, and we're thrilled to report that our work has received unanimous approval from the W3C validators.
+  
+  (i) HTML (index.html) validator results
+
+    ![HTML Validator](assets/docs/readme/HTML-validate.png)
+
+  (ii) CSS (style.css) validator results
+  
+    ![CSS Validator](assets/docs/readme/CSS-validate.png)
+
+8. Performance
