@@ -1,4 +1,4 @@
-# South Coast Golf Club
+# [South Coast Golf Club](https://professorjames.github.io/south-coast-golf-club/ "South Coast Golf Club")
 
 
 # Goal for this Project
