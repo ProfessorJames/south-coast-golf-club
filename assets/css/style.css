@@ -46,12 +46,6 @@ body {
 
 /* Styles for element tags are in this section*/
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: var(--white);
-}
-
-
 nav {
     position: absolute;
     background-color: var(--green);
@@ -94,6 +88,8 @@ iframe {
 
 /* Logo */
 .logo {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--white);
     padding: 1rem;
 }
 
@@ -154,7 +150,7 @@ header a {
     max-width: 80rem;
     margin: 0 auto;
     padding: 2rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Monts', sans-serif;
     line-height: 1.6;
 }
 
