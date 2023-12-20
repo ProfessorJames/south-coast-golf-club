@@ -231,4 +231,16 @@ Manual testing was essential to ensure the website functions correctly and meets
   
     ![CSS Validator](assets/docs/readme/CSS-validate.png)
 
-8. Performance
+8. Performance & Accessibility Best Practices
+
+    By adhering to accessibility best practices, we can ensure that our website provides an excellent user experience to a wide range of users.
+
+     ![Lighthouse Report](assets/docs/readme/Lighthouse-report.png)
+
+    We note that there is room for improvement on the performance score (72). An area for focus in the future will be to improve times for:
+      (i) First Contentful Paint, 
+      (ii) Largest Contentful Paint, 
+      (iii) Total Blocking Time, and
+      (iv) Speed Index 
+
+    This will be done as our development skills and knowledge increase. 
