@@ -56,17 +56,14 @@ At South Coast Golf Club, golf isn't just a sport; it's a lifestyle. Join us, pl
 
 ## User Stories
 
-* As a user, I want the website to be user-friendly and easily navigable, with a clear menu and layout, so I can efficiently find the information I need about membership, pricing, and any joining requirements.
-  
+* As a user, I want the website to be user-friendly and easily navigable. 
+* As a user, I want the website to have a clear menu and layout.
+* As a user, I want to efficiently find the information I need about membership and pricing.
 * As a user, I want to find information that confirms the golf course's reputation and history, so I can trust it as a well-established venue for golfing.
-
-* As a user, I want the website to provide comprehensive details about what is involved in playing golf at this course, including course layout, difficulty levels, and any unique features, as well as membership options and benefits, to help me plan my visit and consider joining.
-
-* As a user, I want to easily access the club's contact information, including the physical address, phone number, and email, so I can quickly get in touch if I have questions, want to make a reservation, or inquire about membership.
-
-* As a user, I want the option to contact the golf club through various methods, such as social media platforms and a dedicated membership inquiry form, to stay updated on events and news, engage with the community, and express my interest in joining.
-
-* As a user, I want to know the location of the golf course, including the address, nearby landmarks, and a map, so I can plan my visit and easily find my way to the club.
+* As a user, I want the website to provide comprehensive details about membership options and benefits, to help me consider joining.
+* As a user, I want to easily access the club's contact information, phone number, and email, so I can quickly get in touch if I have questions, or inquire about membership.
+* As a user, I want the option to contact the golf club through various methods, such as social media platforms and a dedicated inquiry form.
+* As a user, I want to know the location of the golf course, including a map, so I can easily find my way to the club.
 
 ## Site Owner Goals
 
@@ -150,5 +147,6 @@ You can find more information about Bootstrap breakpoints in their official docu
 ## Libraries and Frameworks
   * [Google Fonts](https://fonts.google.com/ "Google Fonts")
   * [Font Awesome](https://fontawesome.com/search "Font Awesome")
+  * [CDNJS](https://cdnjs.com/libraries/font-awesome "CDNJS for Font Awesome")
 
 
