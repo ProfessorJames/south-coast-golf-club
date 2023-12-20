@@ -56,7 +56,7 @@ nav {
     position: absolute;
     background-color: var(--green);
     width: 100%;
-    padding: 0 2rem;
+    padding: 2rem;
     display: none;
     left: 0;
     border-bottom: 2rem double var(--gold);
@@ -90,6 +90,11 @@ main {
 /* Iframe */
 iframe {
     border: 0;
+}
+
+/* Logo */
+.logo {
+    padding: 1rem;
 }
 
 /* Navbar styles with dropdown toggle */
