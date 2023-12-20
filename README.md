@@ -29,7 +29,7 @@ At South Coast Golf Club, golf isn't just a sport; it's a lifestyle. Join us, pl
     - [Expectations](#expectations)
   - [Design Choices](#design-choices)
     - [Fonts](#fonts)
-  - [Colors](#colors)
+  - [Colours](#colours)
     - [Icons](#icons)
     - [Structure](#structure)
 - [Features](#features)
@@ -104,7 +104,29 @@ To enhance typography, [Google Fonts](https://fonts.google.com/ "Google Fonts") 
 The rest of the website was styled with [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto "Roboto") to create a distinct separation from the text in the course section and Logo.
 
 
-## Colors
+## Colours
+
+I have selected the colours for the website manually. I had a picture in my mind what the website would look like before starting coding. These colours seem like a good fit for a Golf Course in Ireland, with a use of green and golds throughout. For text and styling I have used a number of grays to provide subtle contrast where needed.
+
+![Colour Pallete](/assets/docs/readme/colour-pallette.png)
+
+ * #004225 - Variable name = green - Used as a background colour for header, nav, contact and location sections. Also used to as a text colour for some section headings.
+ * #DAA520 - Variable name = gold - Used to colour the double border in nav and header section. Also used to style award paragraph in Course section, labels in contact form, and to add hover effects for social media icons.  
+ * #E8AB16 - Variable name = yellow: Used to style contact text in Contact & Location sections.
+ * #ffd700 - Variable name = metallic-gold: Used to style hover effect on form submit button.
+ * #000 - Variable name = black: Used as background colour for footer section.
+ * #000 - Used as background colour throughout site and to style text across website.
+ * #666 - Variable name = dark-gray: Used to style paragraph text in Course section.
+ * #ccc - Variable name = gray: Used to style borders for Gallery images and form-input fields.
+ * #c0c0c0 - Variable name = silver: Used to style borders for div in Membership section.
+ * #f0f0f0 - Variable name = light-gray: Used as a background colour in Membership Benefits and Membership Plans sections.
+ * #000 - Used as background colour throughout site and to style text across website.
+
+
+Note:  The colour pallette image was generated using [Coolors](https://coolors.co/ "Coolors"). There is a discrepancy between the color variable names I have used in the CSS code and the names that Coolors has given. This is because the Colour pallette from Coolors was generated after the code for the website had been written.
+
+
+
 
 ### Icons
 In our project, we've enriched the user interface by incorporating icons sourced from [Font Awesome](https://fontawesome.com/ "Font Awesome"), a widely-used icon library. These icons provide visual cues and enhance the overall user experience. They are carefully chosen and thoughtfully placed to improve the clarity and aesthetics of the website.

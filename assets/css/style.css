@@ -6,16 +6,16 @@
 
 :root {
     /* Colors */
-    --white: #ffffff;
-    --black: #000;
     --green: #004225;
-    --silver: #C0C0C0;
     --gold: #DAA520;
-    --metallic-gold: #ffd700;
-    --gray: #ccc;
-    --light-gray: #f0f0f0;
     --yellow: #E8AB16;
+    --metallic-gold: #ffd700;
+    --black: #000;
     --dark-gray: #666;
+    --gray: #ccc;
+    --silver: #C0C0C0;
+    --light-gray: #f0f0f0;
+    --white: #ffffff;
 }
 
 * {
@@ -223,7 +223,7 @@ header a {
 #membership-plans {
     margin-right: 1rem;
     padding: 2rem;
-    background-color: #f0f0f0;
+    background-color: var(--light-gray);
     border-radius: 0.5rem;
     margin-bottom: 2rem;
 }
