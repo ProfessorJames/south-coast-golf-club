@@ -402,6 +402,9 @@ footer {
 .email {
     padding: 1rem;
     text-decoration: none;
+    list-style-type: none;
+    color: var(--white);
+    text-decoration: none;
 }
 
 #contact-phone-email a:hover {
