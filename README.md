@@ -88,7 +88,7 @@ At South Coast Golf Club, golf isn't just a sport; it's a lifestyle. Join us, pl
 2. Social Media Links Behavior: I expect that when I click on social media links, these links will open in new browser tabs or windows, allowing me to easily return to the website without losing my place.
 3. Navigation Functionality: I expect all navigation links to work correctly and efficiently. When I click on menu items or links, I expect them to lead to the intended pages or sections without errors or broken links.
 4. Responsive Design: I expect that the website's layout and content quality remain consistent regardless of the screen size or device I am using. The website should adapt seamlessly to various screen sizes, ensuring a positive user experience for me.
-5. Accurate Information: I expect the website to provide accurate and up-to-date information about the golf club's services, amenities, events, and membership details. Any discrepancies or outdated information can lead to frustration and a loss of trust.
+5. Accurate Information: I expect the website to provide accurate and up-to-date information about the golf club and membership details. Any discrepancies or outdated information can lead to frustration and a loss of trust.
 
 \
 &nbsp;
