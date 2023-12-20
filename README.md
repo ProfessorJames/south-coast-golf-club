@@ -29,7 +29,7 @@ At South Coast Golf Club, golf isn't just a sport; it's a lifestyle. Join us, pl
     - [Expectations](#expectations)
   - [Design Choices](#design-choices)
     - [Fonts](#fonts)
-    - [Colors](#colors)
+  - [Colors](#colors)
     - [Icons](#icons)
     - [Structure](#structure)
 - [Features](#features)
@@ -100,13 +100,14 @@ At South Coast Golf Club, golf isn't just a sport; it's a lifestyle. Join us, pl
 
 ### Fonts
 To enhance typography, [Google Fonts](https://fonts.google.com/ "Google Fonts") were employed. 
-Montserrat was selected for text in the Course section and for the Logo. 
-The rest of the website was styled with Roboto Slab to create a distinct separation from the main text.
+[Montserrat](https://fonts.google.com/specimen/Montserrat?query=montserrat "Montserrat") was selected for text in the Course section and for the Logo. 
+The rest of the website was styled with [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto "Roboto") to create a distinct separation from the text in the course section and Logo.
 
 
-### Colors
+## Colors
 
 ### Icons
+In our project, we've enriched the user interface by incorporating icons sourced from [Font Awesome](https://fontawesome.com/ "Font Awesome"), a widely-used icon library. These icons provide visual cues and enhance the overall user experience. They are carefully chosen and thoughtfully placed to improve the clarity and aesthetics of the website.
 
 ### Structure
 
