@@ -383,33 +383,28 @@ footer {
     color: var(--gold);
 }
 
-
-
-#contact-phone-email {
+#contact-info {
     text-align: center;
     padding: 1.75rem;
     justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
 }
 
-#contact-phone-email a {
-    list-style-type: none;
+#contact-info a {
     color: var(--white);
     text-decoration: none;
 
 }
 
-.phone,
-.email {
+.contact-item {
     padding: 1rem;
-    text-decoration: none;
-    list-style-type: none;
     color: var(--white);
-    text-decoration: none;
 }
 
-#contact-phone-email a:hover {
+#contact-info a:hover {
     color: var(--gold);
-}
+} 
 
 /* Media Queries */
 
