@@ -99,7 +99,9 @@ At South Coast Golf Club, golf isn't just a sport; it's a lifestyle. Join us, pl
 ## Design Choices
 
 ### Fonts
-
+To enhance typography, [Google Fonts](https://fonts.google.com/ "Google Fonts") were employed. 
+Montserrat was selected for text in the Course section and for the Logo. 
+The rest of the website was styled with Roboto Slab to create a distinct separation from the main text.
 
 
 ### Colors
