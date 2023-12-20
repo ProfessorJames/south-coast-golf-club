@@ -106,7 +106,7 @@ The rest of the website was styled with [Roboto](https://fonts.google.com/specim
 
 ## Colours
 
-I have selected the colours for the website manually. I had a picture in my mind what the website would look like before starting coding. These colours seem like a good fit for a Golf Course in Ireland, with a use of green and golds throughout. For text and styling I have used a number of grays to provide subtle contrast where needed.
+I have selected the colours for the website manually. I had a picture in my mind what the website would look like before starting coding. These colours seem like a good fit for a Golf Course in Ireland, with a use of green and golds throughout the website. For text and styling I have used a number of grays to provide subtle contrast where needed.
 
 ![Colour Pallete](/assets/docs/readme/colour-pallette.png)
 
