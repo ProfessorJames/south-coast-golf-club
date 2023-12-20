@@ -436,7 +436,6 @@ footer {
     /* Style the membership section */
     .membership {
         display: flex;
-        flex-wrap: row wrap;
         justify-content: space-evenly;
     }
 
@@ -468,7 +467,6 @@ footer {
 
     .contact-location {
         display: flex;
-        flex-wrap: row wrap;
         justify-content: space-evenly;
     }
 
@@ -478,7 +476,7 @@ footer {
 }
 
 /* Media query: tablets and larger (992px and up) */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {.
 
     #gallery h2 {
         text-align: center;
