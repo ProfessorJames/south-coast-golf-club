@@ -43,6 +43,8 @@ At South Coast Golf Club, golf isn't just a sport; it's a lifestyle. Join us, pl
   - [Languages](#languages)
   - [Libraries and Frameworks](#libraries-and-frameworks)
   - [Tools](#tools)
+- [Testing](#testing)
+  - [Manual Testing](#manual-testing)
     
 # UX
 
@@ -186,3 +188,36 @@ You can find more information about Bootstrap breakpoints in their official docu
 [Back to top](#table-of-contents)
 \
 &nbsp;
+
+# Testing
+
+## Manual Testing
+Manual testing was essential to ensure the website functions correctly and meets the desired user experience. The following manual testing was conducted throughout the development of the website:
+
+1. Navigation
+* Homepage: Verified that the homepage loads without errors, and all navigation links, such as the header menu and footer links, work as expected.
+
+* Internal Links: Tested navigation to internal sections (Logo, Home, Course, Membership, Gallery & Contact Us) to confirm they load correctly and the navigation is consistent throughout the site.
+
+3. Forms and User Input
+* Contact Form: Tested the contact form, ensuring users can submit inquiries or messages successfully. Validated that form fields have proper validation and error handling.
+
+* User Inputs: Tested all input fields in Contact Form with valid and invalid inputs to ensure proper validation and error messages.
+
+4. Content and Functionality
+* Text Content: Reviewed all text content for accuracy, grammar, and spelling.
+
+* Images and Iframe: Ensured that images and iframe load correctly and display as intended.
+
+5. Responsive Design
+* Mobile Devices: Tested the website on various mobile devices (e.g., galaxy fold, smartphones and tablets) to ensure that it is responsive and adapts well to different screen sizes.
+
+* Desktop: Tested the website on large screen sizes to ensure that it is responsive and adapts well to different screen sizes.
+
+* Browser Compatibility: Verified that the website functions correctly on different web browsers (Chrome, Edge & Firefox) to ensure cross-browser compatibility.
+
+6. Cross-Device Testing
+* Tested the website on various devices and screen sizes to ensure a consistent and user-friendly experience across platforms.
+
+7. Validation
+*

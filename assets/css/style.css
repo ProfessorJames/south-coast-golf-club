@@ -81,6 +81,10 @@ main {
 
 }
 
+.hidden {
+    display: none;
+}
+
 /* Iframe */
 iframe {
     border: 0;
