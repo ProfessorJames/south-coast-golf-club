@@ -174,7 +174,7 @@ header a {
 }
 
 /* Style for regular paragraphs */
-#course p {
+.course-paragraph {
     color: var(--dark-gray);
     margin-bottom: 2rem;
 }
