@@ -1,9 +1,7 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700;&display=swap');
 
-
 /* Asterisk wildcard selector to override default styles added by the browser */
-
 :root {
     /* Colors */
     --green: #004225;
@@ -23,7 +21,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 
 html {
     font-size: 62.5%;
@@ -46,11 +43,11 @@ body {
     font-weight: 400;
 }
 
+/* Styles for element tags are in this section*/
 
-h1, h2 , h3, h4, h5, h6{
+h1, h2 , h3, h4, h5, h6 {
     font-weight: 400;
 }
-/* Styles for element tags are in this section*/
 
 nav {
     position: absolute;
@@ -62,8 +59,6 @@ nav {
     border-bottom: 2rem double var(--gold);
     top: 100%;
 }
-
-/* Header */
 
 header {
     background-color: var(--green);
@@ -77,8 +72,6 @@ header {
     align-items: baseline;
 }
 
-/* Main Content */
-
 main {
     background-color: var(--white);
 
@@ -87,16 +80,20 @@ main {
 
 }
 
-.hidden {
-    display: none;
-}
-
-/* Iframe */
 iframe {
     border: 0;
 }
 
-/* Logo */
+footer {
+    background-color: var(--black);
+}
+
+/* More specific seletors */
+
+.hidden {
+    display: none;
+}
+
 .logo {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -124,7 +121,6 @@ header a {
 .logo:hover {
     color: var(--gold);
 }
-
 
 /* Nav Menu Toggle */
 
@@ -285,8 +281,6 @@ header a {
     padding-left: 1rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-
-
 }
 
 .gallery-image img {
@@ -375,10 +369,6 @@ header a {
 
 /* Footer */
 
-footer {
-    background-color: var(--black);
-}
-
 #social-media {
     display: flex;
     text-align: center;
@@ -461,9 +451,6 @@ footer {
 }
 
 /* Media Queries */
-
-/* Media query: tablets and larger (768px and up) */
-
 @media screen and (min-width: 768px) {
 
     html{
@@ -533,7 +520,6 @@ footer {
     }
 }
 
-/* Media query: tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
 
     #gallery h2 {
@@ -542,7 +528,6 @@ footer {
     }
 }
 
-/* Media query: tablets and larger (1200px and up) */
 @media screen and (min-width: 1200px) {
 
     /* Gallery section */
