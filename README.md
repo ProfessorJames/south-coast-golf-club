@@ -183,6 +183,7 @@ You can find more information about Bootstrap breakpoints in their official docu
   * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
   * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
   * [Coolors](https://coolors.co/ "Coolors")
+  * [AmIResponsive](https://ui.dev/amiresponsive/ "AmIResponsive")
 
 \
 &nbsp;
