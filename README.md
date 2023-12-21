@@ -309,8 +309,15 @@ Testing was essential to ensure the website functions correctly and meets the de
 ## Bugs
 
    1.  Web Accessibility testing - When running the website through [Wave](https://wave.webaim.org/report#/https://professorjames.github.io/south-coast-golf-club/ "WAVE") it was showing an error. The error relates to "Empty form label, A form label is present, but does not contain any content". To address this issue I added an aria-hidden="true" to the HTML. Content hidden with aria-hidden="true" is not presented to screen reader users.
-    ## Uunfixed-Bugs
-    2. Linter setting in IDE - Need to fix settings on linter so that it stops adding in "Trailing slash on void elements".
+   
+   2.  Media Queries - The media queries were providing some trouble with placmenet of the Hero image. This was due to a missing closing tag for one of the media queriesis. This caused much time spent looking to fix an issue that ultimately wasn't there. Lessonlearned is to check both HTML & CSS code with validators earlier. Alos learned to use IDE format documnet on save so that any silly missing bracklet issues don't reoccur.
+   
+   3.  CSS - uses classes more to target specific elements instead of combining element selectors. This allows targeting to be more specific, and helps code to be more rusable.
+   
+   4.  Number of Font-Weights:  Importing a lot of font-weights was significantly increasing the amount of CSS that would need to be loaded, which would have an impact on website performance. This was addressed by reducing the number of font-weights imported.
+   
+    ## Unfixed-Bugs
+    5. Linter setting in IDE - Need to fix settings on linter so that it stops adding in "Trailing slash on void elements".
     
 
 
