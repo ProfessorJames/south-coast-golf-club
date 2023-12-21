@@ -15,6 +15,7 @@ Our website goals include:
 
 At South Coast Golf Club, golf isn't just a sport; it's a lifestyle. Join us, play, and embrace the beauty of the game. Explore our website, and let's embark on a memorable golfing journey together!
 
+![Responsive Displays](assets/docs/readme/different-display.png)
 
 # Table of Contents
 
