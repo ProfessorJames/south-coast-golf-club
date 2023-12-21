@@ -30,6 +30,7 @@ Join us, play, and embrace the beauty of the game. Explore our website, and let'
   - [Navigation Bar](#navigation-bar)
   - [Landing Page](#landing-page)
     - [Course Section](#course-section)
+    - [Membership Section](#membership-section)
     - [Gallery Section](#gallery-section)
     - [Contact](#contact)
     - [Footer](#footer)
@@ -209,7 +210,27 @@ The core objective of the website's "Course" section is to efficiently promote t
 
 ![Course Section](assets/docs/readme/Course-section-galaxy-fold.png)
 
+### Membership Section
+
+The Membership section is designed to provide a clear understanding of what individuals can gain by becoming a club member. It aims to highlight the advantages and privileges offered, fostering an appreciation for the value of club affiliation.
+
+These membership options cater to various age groups and circumstances, allowing individuals to choose the membersip options that best suits their individual circumstances
+ 
+*Desktop*
+
+![Membership Section Desktop](assets/docs/readme/Course-section-desktop.png)
+
+*Tablet*
+  
+![Membership Section Tablet](assets/docs/readme/Course-section-tablet.png)
+
+*Mobile*
+
+![Membership Section](assets/docs/readme/Course-section-galaxy-fold.png)
+
 ### Gallery Section
+
+
 
 ### Contact 
 
@@ -357,8 +378,6 @@ For advice, motivation, and inspiration:
 Inpired by:
 
 Code Institute's Love running
-\
-&nbsp;
 
 \
 &nbsp;
