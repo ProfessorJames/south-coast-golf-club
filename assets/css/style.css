@@ -407,6 +407,46 @@ footer {
     color: var(--gold);
 } 
 
+/* Thank You Page */
+.thank-you {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+   }
+
+.thank-you h1{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--gold);
+    padding: 2rem;
+    font-size: 4rem;
+}
+
+.thank-you p {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--white);
+    padding: 1rem;
+}
+
+.thank-you i {
+    text-align: center;
+    font-size: 5rem;
+    color: var(--white);
+    padding: 1rem;
+
+}
+
+.thank-you i:hover{
+    color: var(--gold);
+    font-size: 6rem;
+
+}
+
 /* Media Queries */
 
 /* Media query: tablets and larger (768px and up) */
