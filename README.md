@@ -150,9 +150,40 @@ You can find more information about Bootstrap breakpoints in their official docu
 | large       | => 992px   |
 | x-large     | => 1200px  |
 
+\
+&nbsp;
+[Back to top](#table-of-contents)
+\
+&nbsp;
+
 # Features
 
 ## Navigation Bar
+The responsive navigation bar is designed to accommodate various screen sizes and offers easy navigation through the site, including a clickable club logo for returning to the home section.
+
++ Tablet (>=768px)
+
+The navigation bar spans the entire width of the device and displays all links (Home, Course, Membership, Gallery & Contact Us) for clear user access.
+
+![Navigation bar](assets/docs/readme/Navigation-bar.png)
+
+To enhance user experience, the colour of the text for each section changes when users hover over each link.
+
+![Navigation bar](assets/docs/readme/Navigation-bar-hover.png)
+
++ Smaller Devices (<768px)
+
+To ensure usability on smaller devices, the navigation bar adopts a hamburger-style design.
+
+![Navigation bar](assets/docs/readme/Navigation-bar-smaller-devices.png)
+
+When the hamburger icon is clicked, it expands to reveal the main menu with all available links.
+
+![Navigation bar](assets/docs/readme/Nav-bar-small-clicked.png)
+
+To enhance user experience, the colour of the text for each section changes when users hover over each link.
+
+![Navigation bar](assets/docs/readme/Nav-Bar-small-devices-hover.png)
 
 ## Landing Page
 
@@ -246,3 +277,9 @@ Manual testing was essential to ensure the website functions correctly and meets
       (iv) Speed Index 
 
     This will be done as our development skills and knowledge increase. 
+
+\
+&nbsp;
+[Back to top](#table-of-contents)
+\
+&nbsp;
