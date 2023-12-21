@@ -39,7 +39,6 @@ Join us, play, and embrace the beauty of the game. Explore our website, and let'
   - [Libraries and Frameworks](#libraries-and-frameworks)
   - [Tools](#tools)
 - [Testing](#testing)
-  - [Manual Testing](#manual-testing)
     
 # UX
 
@@ -247,8 +246,7 @@ The core objective of the website's "Course" section is to efficiently promote t
 
 # Testing
 
-## Manual Testing
-Manual testing was essential to ensure the website functions correctly and meets the desired user experience. The following manual testing was conducted throughout the development of the website:
+Testing was essential to ensure the website functions correctly and meets the desired user experience. The following testing was conducted throughout the development of the website:
 
 1. Navigation
 * Homepage: Verified that the homepage loads without errors, and all navigation links, such as the header menu and footer links, work as expected.
@@ -302,6 +300,10 @@ Manual testing was essential to ensure the website functions correctly and meets
 
     This will be done as our development skills and knowledge increase. 
 
+9. Linter Settings
+    
+    The default linter setting on CodeAnywhere were changing the layout for HTML code. Added .prettierrc file and updated settings in IDE to ehance formatting of HTML document in line with industry best practice - HTML code is now layed out like a 'Christmas Tree'.
+    
 \
 &nbsp;
 [Back to top](#table-of-contents)
