@@ -378,12 +378,12 @@ header a {
 
 }
 
-#social-media i {
+.social-media-icons {
     color: var(--white);
     font-size: 3rem;
 }
 
-#social-media i:hover {
+.social-media-icons:hover {
     color: var(--gold);
 }
 
