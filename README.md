@@ -40,6 +40,9 @@ Join us, play, and embrace the beauty of the game. Explore our website, and let'
   - [Tools](#tools)
 - [Testing](#testing)
   - [Bugs](#bugs)
+  - [Unfixed-Bugs](#unfixed-bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
     
 # UX
 
@@ -310,19 +313,55 @@ Testing was essential to ensure the website functions correctly and meets the de
 
    1.  Web Accessibility testing - When running the website through [Wave](https://wave.webaim.org/report#/https://professorjames.github.io/south-coast-golf-club/ "WAVE") it was showing an error. The error relates to "Empty form label, A form label is present, but does not contain any content". To address this issue I added an aria-hidden="true" to the HTML. Content hidden with aria-hidden="true" is not presented to screen reader users.
    
-   2.  Media Queries - The media queries were providing some trouble with placmenet of the Hero image. This was due to a missing closing tag for one of the media queriesis. This caused much time spent looking to fix an issue that ultimately wasn't there. Lessonlearned is to check both HTML & CSS code with validators earlier. Alos learned to use IDE format documnet on save so that any silly missing bracklet issues don't reoccur.
+   2.  Media Queries - The media queries were providing some trouble with placmenet of the Hero image. This was due to a missing closing tag for one of the media queries. This caused much time spent looking to fix an issue that ultimately due to poor css or poor html. Lesson learned is to check both HTML & CSS code with validators earlier. Also learned to use IDE to format document on save so that any silly missing bracklet issues don't reoccur.
    
-   3.  CSS - uses classes more to target specific elements instead of combining element selectors. This allows targeting to be more specific, and helps code to be more rusable.
+   3.  CSS - Refactor code tp target specific elements instead of combining element selectors. This allows targeting to be more specific, and helps code to be more reusable.
    
    4.  Number of Font-Weights:  Importing a lot of font-weights was significantly increasing the amount of CSS that would need to be loaded, which would have an impact on website performance. This was addressed by reducing the number of font-weights imported.
+
+   5. Consistency in measurements - Reviewed and rewrote code to ensure that sizes were consistent throughout and were all using rems instead of pixels or percentages. Pixels are used for measurments less than 0.5rem.i.e. 1px, 2px, 3ps or 4px. The rem scale was reset for easier calculation with 1rem = 10px. 
    
-    ## Unfixed-Bugs
-    5. Linter setting in IDE - Need to fix settings on linter so that it stops adding in "Trailing slash on void elements".
+   6. Security - Initially when a user submitted the contact form they were sent to the FormDump. This is a page showing the information the user has submitted. As an alternative we made a new Thank-you page that displays when a user submits their contact information, so this is no longer an issue.
+   
+## Unfixed-Bugs
+
+   1. Linter setting in IDE - Need to fix settings on linter so that it stops adding in "Trailing slash on void elements". I had fixed this issue previously. Unfortunately, when ajusting other settings subsequently another setting has been changed causing the error to reoccur.
     
-
-
 \
 &nbsp;
 [Back to top](#table-of-contents)
+\
+&nbsp;
+
+# Deployment
+
+After writing and committing the code to GitHub, the project was deployed using the following GitHub deployment steps:
+
++ Go to the GitHub repository and click on the 'Settings' tab.
++ In the side navigation menu, choose 'Pages.'
++ Under the 'Source' section, click on the dropdown menu labeled 'None' and select 'main'
++ Click the 'Save' button to confirm your selection.
++ The website is now live at https://professorjames.github.io/south-coast-golf-club/.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+# Credits
+
+For advice, motivation, and inspiration:
+
+[Simen Daehlin](https://github.com/Eventyret "Simen Daehlin") has been incredibly supportive, helping me learn and develop while also presenting me with challenging opportunities. I'm grateful for his guidance, and I look forward to continuing to learn under his mentorship. Thanks Simen.
+ 
+Inpired by:
+
+Code Institute's Love running
+\
+&nbsp;
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
 \
 &nbsp;
