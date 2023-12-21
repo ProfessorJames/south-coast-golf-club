@@ -268,6 +268,7 @@ Manual testing was essential to ensure the website functions correctly and meets
 
 5. Responsive Design
 * Mobile Devices: Tested the website on various mobile devices (e.g., galaxy fold, smartphones and tablets) to ensure that it is responsive and adapts well to different screen sizes.
+* Logo: The text for the Logo section was initially causing problems with the display of the hero image when changing between larger device sizes. After consideration, it was decided to shorten the Logo text from "South Coast Golf Club" to "SCGC" to address this issue.  
 
 * Desktop: Tested the website on large screen sizes to ensure that it is responsive and adapts well to different screen sizes.
 
