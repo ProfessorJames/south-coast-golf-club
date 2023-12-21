@@ -36,7 +36,7 @@ At South Coast Golf Club, golf isn't just a sport; it's a lifestyle. Join us, pl
 - [Features](#features)
   - [Navigation Bar](#navigation-bar)
   - [Landing Page](#landing-page)
-    - [About Section](#about-section)
+    - [Course Section](#course-section)
     - [Gallery Section](#gallery-section)
     - [Contact](#contact)
     - [Footer](#footer)
@@ -191,8 +191,27 @@ The hero image provides users with an immediate and captivating view of the pict
 
 ![Hero image](assets/docs/readme/Hero-image-Readme.png)
 
+\
+&nbsp;
+[Back to top](#table-of-contents)
+\
+&nbsp;
 
-### About Section
+### Course Section
+
+The core objective of the website's "Course" section is to efficiently promote the golf club, spotlighting its distinctive attributes, history, and the extraordinary golfing opportunities it provides. This section is dedicated to spotlighting the club's storied history, unwavering dedication to excellence, and the exceptional amenities that members enjoy. The Course section isresponsive and adjusts to suit different screen sizes.
+
+*Desktop*
+
+![Course Section Desktop](assets/docs/readme/Course-section-desktop.png)
+
+*Tablet*
+  
+![Course Section Tablet](assets/docs/readme/Course-section-tablet.png)
+
+*Mobile*
+
+![Course Section](assets/docs/readme/Course-section-galaxy-fold.png)
 
 ### Gallery Section
 
