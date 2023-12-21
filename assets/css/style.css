@@ -413,6 +413,10 @@ footer {
 
 @media screen and (min-width: 768px) {
 
+    html{
+        scroll-padding-top: 9.6rem;
+    }
+
     /* Header */
     nav {
         position: relative;
