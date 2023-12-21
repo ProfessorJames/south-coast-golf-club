@@ -40,6 +40,7 @@ At South Coast Golf Club, golf isn't just a sport; it's a lifestyle. Join us, pl
     - [Gallery Section](#gallery-section)
     - [Contact](#contact)
     - [Footer](#footer)
+  - [Features to be Implemented](#features-to-be-implemented)
 - [Technologies used](#technologies-used)
   - [Languages](#languages)
   - [Libraries and Frameworks](#libraries-and-frameworks)
@@ -220,6 +221,13 @@ The core objective of the website's "Course" section is to efficiently promote t
 
 ### Footer
 
+## Features to be Implemented
+1. Online Tee Time Booking: Allow users to book tee times online, making it convenient for golfers to plan their rounds.
+2. Course Tour: Provide a virtual tour of the golf course with hole-by-hole descriptions, images, and videos to help golfers familiarize themselves with the layout.
+3. Pro Shop: Enable online shopping for golf equipment, club merchandise, and apparel.
+4. Lesson Booking: Allow users to schedule golf lessons with club instructors.
+5. Weather Updates: Display real-time weather information for the golf course location.
+6. Newsletter Signup: Allow visitors to subscribe to newsletters for updates and promotions.
 
 # Technologies used
 
