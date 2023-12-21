@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700;&display=swap');
 
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -43,8 +43,13 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
+
+h1, h2 , h3, h4, h5, h6{
+    font-weight: 400;
+}
 /* Styles for element tags are in this section*/
 
 nav {
@@ -94,6 +99,7 @@ iframe {
 /* Logo */
 .logo {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     color: var(--white);
     padding: 1rem;
 }
@@ -161,7 +167,8 @@ header a {
 
 /* Style for the header text */
 #course>h2 {
-    font-size: 200%;
+    font-size: 3.2rem;
+    font-weight: 700;
     color: var(--green);
     margin-bottom: 1rem;
 }
@@ -169,7 +176,7 @@ header a {
 /* Style for the subheader text */
 #course p:first-of-type {
     font-size: 1.8rem;
-    font-weight: bold;
+    font-weight: 600;
     color: var(--black);
     margin-bottom: 2rem;
 }
@@ -181,7 +188,7 @@ header a {
 }
 
 #course i {
-    font-size: 2.4rem;
+    font-size: 3.2rem;
     color: var(--green);
     margin-right: 1rem;
 }
@@ -204,7 +211,8 @@ header a {
 }
 
 #membership-benefits h2 {
-    font-size: 200%;
+    font-size: 3.2rem;
+    font-weight: 700;
     margin-bottom: 1rem;
     color: var(--green);
 }
@@ -234,7 +242,8 @@ header a {
 }
 
 #membership-plans h2 {
-    font-size: 200%;
+    font-size: 3.2rem;
+    font-weight: 700;
     margin-bottom: 1rem;
     color: var(--green);
 }
@@ -270,11 +279,13 @@ header a {
 }
 
 #gallery h2 {
+    font-size: 3.2rem;
+    font-weight: 700;
     color: var(--green);
     padding-left: 1rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    font-size: 200%;
+
 
 }
 
@@ -301,6 +312,7 @@ header a {
 /* Style the contact section */
 #contact h2 {
     font-size: 2.4rem;
+    font-weight: 700;
     margin-bottom: 1rem;
     color: var(--yellow);
     margin-bottom: 1rem;
@@ -347,6 +359,7 @@ header a {
 /* Style the location section */
 #location h2 {
     font-size: 2.4rem;
+    font-weight: 700;
     margin-bottom: 1rem;
     color: var(--yellow);
     ;
