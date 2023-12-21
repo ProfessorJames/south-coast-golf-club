@@ -231,7 +231,6 @@ The core objective of the website's "Course" section is to efficiently promote t
 ## Libraries and Frameworks
   * [Google Fonts](https://fonts.google.com/ "Google Fonts")
   * [Font Awesome](https://fontawesome.com/search "Font Awesome")
-  * [CDNJS](https://cdnjs.com/libraries/font-awesome "CDNJS for Font Awesome")
 
 ## Tools
   * [Code Anywhere](https://codeanywhere.com/ "Code Anywhere")
