@@ -39,6 +39,7 @@ Join us, play, and embrace the beauty of the game. Explore our website, and let'
   - [Libraries and Frameworks](#libraries-and-frameworks)
   - [Tools](#tools)
 - [Testing](#testing)
+  - [Bugs](#bugs)
     
 # UX
 
@@ -304,6 +305,15 @@ Testing was essential to ensure the website functions correctly and meets the de
     
     The default linter setting on CodeAnywhere were changing the layout for HTML code. Added .prettierrc file and updated settings in IDE to ehance formatting of HTML document in line with industry best practice - HTML code is now layed out like a 'Christmas Tree'.
     
+
+## Bugs
+
+   1.  Web Accessibility testing - When running the website through [Wave](https://wave.webaim.org/report#/https://professorjames.github.io/south-coast-golf-club/ "WAVE") it was showing an error. The error relates to "Empty form label, A form label is present, but does not contain any content". To address this issue I added an aria-hidden="true" to the HTML. Content hidden with aria-hidden="true" is not presented to screen reader users.
+    ## Uunfixed-Bugs
+    2. Linter setting in IDE - Need to fix settings on linter so that it stops adding in "Trailing slash on void elements".
+    
+
+
 \
 &nbsp;
 [Back to top](#table-of-contents)
