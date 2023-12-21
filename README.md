@@ -32,8 +32,8 @@ Join us, play, and embrace the beauty of the game. Explore our website, and let'
     - [Course Section](#course-section)
     - [Membership Section](#membership-section)
     - [Gallery Section](#gallery-section)
-    - [Contact](#contact)
-    - [Footer](#footer)
+    - [Contact Section](#contact-section)
+    - [Footer Section](#footer-section)
   - [Features to be Implemented](#features-to-be-implemented)
 - [Technologies used](#technologies-used)
   - [Languages](#languages)
@@ -218,24 +218,107 @@ These membership options cater to various age groups and circumstances, allowing
  
 *Desktop*
 
-![Membership Section Desktop](assets/docs/readme/Course-section-desktop.png)
+![Membership Section Desktop](assets/docs/readme/membership-section-desktop.png)
 
 *Tablet*
   
-![Membership Section Tablet](assets/docs/readme/Course-section-tablet.png)
+![Membership Section Tablet](assets/docs/readme/membership-section-tablet.png)
 
 *Mobile*
 
-![Membership Section](assets/docs/readme/Course-section-galaxy-fold.png)
+![Membership Section](assets/docs/readme/membership-section-mobile1.png)
+
+![Membership Section](assets/docs/readme/membership-section-mobile2.png)
+
+![Membership Section](assets/docs/readme/membership-section-mobile3.png)
 
 ### Gallery Section
 
+The Gallery section includes photos of South Coast Golf Club. The gallery section highlights the beauty of the course, the practice facilities and also shows other members enjoying the Clubs great facilities. 
+ 
+*Desktop*
 
+![Gallery Section Desktop](assets/docs/readme/gallery-section-desktop.png)
 
-### Contact 
+*Tablet*
+  
+![Gallery Section Tablet](assets/docs/readme/gallery-section-tablet.png)
 
+*Mobile*
 
-### Footer
+![Gallery Section](assets/docs/readme/gallery-section-mobile.png)
+
+\
+&nbsp;
+[Back to top](#table-of-contents)
+\
+&nbsp;
+
+### Contact Section
+
+The Contact section offers a convenient way for users to send messages directly to the South Coast Golf Club. Additionally, it provides a map displaying the club's location. 
+ 
+*Desktop*
+
+![Contact Section Desktop](assets/docs/readme/contact-section-desktop.png)
+
+*Tablet*
+  
+![Contact Section Tablet](assets/docs/readme/contact-section-tablet.png)
+
+*Mobile*
+
+![Contact Section](assets/docs/readme/contact-section-mobile1.png)
+
+![Contact Section](assets/docs/readme/contact-section-mobile2.png)
+
+* The provided form fields are all mandatory and will prevent submission until they are properly filled out. This includes email validation to ensure it conforms to a valid format. 
+  
+*Name validation*
+
+![Contact Section](assets/docs/readme/contact-form-validation-name.png)
+
+*Email validation*
+
+![Contact Section](assets/docs/readme/contact-form-validation-email.png)
+
+*Message validation*
+
+![Contact Section](assets/docs/readme/contact-form-validation-message.png)
+
+  
+* Furthermore, a hover effect has been implemented on the submit button to provide users with visual feedback indicating its active status.
+  
+![Contact Section](assets/docs/readme/contact-form-hover-effect.png)
+
+* Upon submitting the form, users will be directed to a confirmation page indicating that their details have been successfully received.
+
+![Contact Section](assets/docs/readme/thank-you-page.png)
+
+* Users will be automatically redirected back to South Coast Golf Club home page after 10 seconds. This gives users sufficient time to read the message displayed on the page.
+* There is also a home icon that users can click on to bring them back to the South Coast Golf Club home page as well. A hover effect has been implemented on the home icon to provide users with visual feedback indicating its active status.
+
+![Contact Section](assets/docs/readme/thank-you-hover.png)
+
+\
+&nbsp;
+[Back to top](#table-of-contents)
+\
+&nbsp;
+
+### Footer Section
+
+* In the Footer section, you will discover South Coast Golf Club's social media links, as well as the club's telephone number and email address. To facilitate user convenience and enable seamless navigation back to South Coast Golf Club's website, all social media links open in new tabs upon clicking.
+
+![Footer Section](assets/docs/readme/footer-section.png)
+
+* The Footer section also incorporatee a subtle hover effect over the links. 
+
+![Footer Section](assets/docs/readme/footer-section-icon-hover.png)
+
+* Clicking the phone number icon ask the user if they wantto initiate a call via the user's computer application, while clicking the email icon will launch the user's computer email application for easy correspondence.
+
+![Footer Section](assets/docs/readme/footer-phone-application-permission.png)
 
 ## Features to be Implemented
 1. Online Tee Time Booking: Allow users to book tee times online, making it convenient for golfers to plan their rounds.
