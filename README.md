@@ -175,17 +175,22 @@ To enhance user experience, the colour of the text for each section changes when
 
 To ensure usability on smaller devices, the navigation bar adopts a hamburger-style design.
 
-![Navigation bar](assets/docs/readme/Navigation-bar-smaller-devices.png)
+![Nav bar on small devices](assets/docs/readme/Navigation-bar-smaller-devices.png)
 
 When the hamburger icon is clicked, it expands to reveal the main menu with all available links.
 
-![Navigation bar](assets/docs/readme/Nav-bar-small-clicked.png)
+![Nav bar on small devices expanded](assets/docs/readme/Nav-bar-small-clicked.png)
 
 To enhance user experience, the colour of the text for each section changes when users hover over each link.
 
-![Navigation bar](assets/docs/readme/Nav-Bar-small-devices-hover.png)
+![Nav bar on small devices with hover effect](assets/docs/readme/Nav-Bar-small-devices-hover.png)
 
 ## Landing Page
+
+The hero image provides users with an immediate and captivating view of the picturesque golf course, highlighting its scenic location along the coast. This visually engaging element is designed to capture users' attention and create an appealing first impression. 
+
+![Hero image](assets/docs/readme/Hero-image-Readme.png)
+
 
 ### About Section
 
