@@ -380,7 +380,7 @@ header a {
 
 #social-media i {
     color: var(--white);
-    font-size: 150%;
+    font-size: 3rem;
 }
 
 #social-media i:hover {
