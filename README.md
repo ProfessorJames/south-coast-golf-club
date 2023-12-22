@@ -349,6 +349,7 @@ _Message validation_
 - [WAVE](https://wave.webaim.org/ "WAVE")
 - [Coolors](https://coolors.co/ "Coolors")
 - [AmIResponsive](https://ui.dev/amiresponsive/ "AmIResponsive")
+- [Tables Generator](https://www.tablesgenerator.com/markdown_tables "Markdown Tables Generator")
 
 \
 &nbsp;
