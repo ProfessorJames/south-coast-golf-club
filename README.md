@@ -314,7 +314,7 @@ The Contact section offers a convenient way for users to send messages directly 
 
 ![Footer Section](assets/docs/readme/footer-section-icon-hover.png)
 
-* Clicking the phone number icon ask the user if they wantto initiate a call via the user's computer application, while clicking the email icon will launch the user's computer email application for easy correspondence.
+* Clicking the phone number icon asks the user if they want to initiate a call via the user's computer application, while clicking the email icon will launch the user's computer email application for easy correspondence.
 
 ![Footer Section](assets/docs/readme/footer-phone-application-permission.png)
 
@@ -356,8 +356,10 @@ Testing was essential to ensure the website functions correctly and meets the de
 
 1. Navigation
 * Homepage: Verified that the homepage loads without errors, and all navigation links, such as the header menu and footer links, work as expected.
+* Thank-you page: Verified that the thank-you page loads without errors when a user submits a form. Tested that thank-you page redirects automatically back to the home page after 10 seconds. Also tested that if users click on home icon they will be brought to home page.
 
 * Internal Links: Tested navigation to internal sections (Logo, Home, Course, Membership, Gallery & Contact Us) to confirm they load correctly and the navigation is consistent throughout the site.
+* External Links: Tested navigatio0n on Thank-you page
 
 3. Forms and User Input
 * Contact Form: Tested the contact form, ensuring users can submit inquiries or messages successfully. Validated that form fields have proper validation and error handling.
@@ -424,6 +426,8 @@ Testing was essential to ensure the website functions correctly and meets the de
    5. Consistency in measurements - Reviewed and rewrote code to ensure that sizes were consistent throughout and were all using rems instead of pixels or percentages. Pixels are used for measurments less than 0.5rem.i.e. 1px, 2px, 3ps or 4px. The rem scale was reset for easier calculation with 1rem = 10px. 
    
    6. Security - Initially when a user submitted the contact form they were sent to the FormDump. This is a page showing the information the user has submitted. As an alternative we made a new Thank-you page that displays when a user submits their contact information, so this is no longer an issue.
+ 
+   7. Time to automatically redirect from Thank-you page home page: Initially the time was set to 5 seconds. However after testing, it was felt that 5 seconds would not be enough time for users to read all of the text and choose to take an action. To avoid user frustration the automatic refresh period was increased to 10 seconds from 5 seconds.
    
 ## Unfixed-Bugs
 
@@ -431,6 +435,11 @@ Testing was essential to ensure the website functions correctly and meets the de
 
    1. Linter setting in IDE - Fix settings on linter so that it stops adding in "Trailing slash on void elements". I had fixed this issue previously. Unfortunately, when ajusting other settings subsequently another setting has been changed causing the error to reoccur.
    2. CSS Colour variable names: Update CSS color variable names to match the names in the Coolors pallette. This woudl be done for consistency in naming and to avoid any potential confusion for future users of the code or developers.  
+   3. Website performance: An area for focus in the future will be to make adjustments or refactor code to improve performance times in ine with industry best practice for:
+      (i) First Contentful Paint, 
+      (ii) Largest Contentful Paint, 
+      (iii) Total Blocking Time, and
+      (iv) Speed Index 
      
 \
 &nbsp;
@@ -455,7 +464,7 @@ After writing and committing the code to GitHub, the project was deployed using 
 &nbsp;
 # Credits
 
-For advice, motivation, and inspiration:
+For guidance, advice, motivation, and inspiration:
 
 [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin") has been incredibly supportive, helping me learn and develop while also presenting me with challenging opportunities. I'm grateful for his guidance, and I look forward to continuing to learn under his mentorship. Thanks Simen.
  
