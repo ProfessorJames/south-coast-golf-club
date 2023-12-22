@@ -346,6 +346,7 @@ _Message validation_
 - [Code Anywhere](https://codeanywhere.com/ "Code Anywhere")
 - [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+- [WAVE](https://wave.webaim.org/ "WAVE")
 - [Coolors](https://coolors.co/ "Coolors")
 - [AmIResponsive](https://ui.dev/amiresponsive/ "AmIResponsive")
 
