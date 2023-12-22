@@ -44,7 +44,8 @@ Join us, play, and embrace the beauty of the game. Explore our website, and let'
   - [Unfixed-Bugs](#unfixed-bugs)
 - [Deployment](#deployment)
 - [Credits](#credits)
-  - [Working software over comprehensive documentation](#working-software-over-comprehensive-documentation)
+- [Agile Manifesto](#agile-manifesto)
+    - [Working software over comprehensive documentation](#working-software-over-comprehensive-documentation)
     
 # UX
 
@@ -118,7 +119,7 @@ I have selected the colours for the website manually. I had a picture in my mind
 | green | `#004225` | Used as a background colour for header, nav, contact and location sections. Also used as a text colour for some section headings. |
 | gold | `#DAA520` | Used to colour the double border in nav and header section. Also used to style labels in contact form, and to add hover effects for social media icons. |
 | yellow | `#E8AB16` | Used to style contact text in Contact & Location sections. |
-| #ffd700 | `metallic-gold` | Used to style hover effect on form submit button. |
+| metallic-gold | `#ffd700` | Used to style hover effect on form submit button. |
 | black | `#000` | Used as background colour for footer section. Also used to style award paragraph in Course section. |
 | dark-gray | `#666` | Used to style paragraph text in Course section. |
 | gray | `#ccc` | Used to style borders for Gallery images and form-input fields. |
@@ -473,10 +474,12 @@ Inpired by:
 
 Code Institute's Love running
 
-## Working software over comprehensive documentation
+# Agile Manifesto
+
+### Working software over comprehensive documentation
 
 - Throughout the development processs the focus was to build a high class website. This resulted in code writing, and testing taking priority over documentation. 
-- With the benefit of experience and hindsight a better balance could be struck on future projects..
+- With the benefit of experience and hindsight a better balance could be struck between developing and updating the README file.
  
 \
 &nbsp;
