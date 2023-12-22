@@ -356,22 +356,22 @@ Testing was essential to ensure the website functions correctly and meets the de
 
 1. Navigation
 * Homepage: Verified that the homepage loads without errors, and all navigation links, such as the header menu and footer links, work as expected.
+
 * Thank-you page: Verified that the thank-you page loads without errors when a user submits a form. Tested that thank-you page redirects automatically back to the home page after 10 seconds. Also tested that if users click on home icon they will be brought to home page.
 
 * Internal Links: Tested navigation to internal sections (Logo, Home, Course, Membership, Gallery & Contact Us) to confirm they load correctly and the navigation is consistent throughout the site.
-* External Links: Tested navigatio0n on Thank-you page
 
-3. Forms and User Input
+2. Forms and User Input
 * Contact Form: Tested the contact form, ensuring users can submit inquiries or messages successfully. Validated that form fields have proper validation and error handling.
 
 * User Inputs: Tested all input fields in Contact Form with valid and invalid inputs to ensure proper validation and error messages.
 
-4. Content and Functionality
+3. Content and Functionality
 * Text Content: Reviewed all text content for accuracy, grammar, and spelling.
 
 * Images and Iframe: Ensured that images and iframe load correctly and display as intended.
 
-5. Responsive Design
+4. Responsive Design
 * Mobile Devices: Tested the website on various mobile devices (e.g., galaxy fold, smartphones and tablets) to ensure that it is responsive and adapts well to different screen sizes.
 * Logo: The text for the Logo section was initially causing problems with the display of the hero image when changing between larger device sizes. After consideration, it was decided to shorten the Logo text from "South Coast Golf Club" to "SCGC" to address this issue.  
 
@@ -379,10 +379,10 @@ Testing was essential to ensure the website functions correctly and meets the de
 
 * Browser Compatibility: Verified that the website functions correctly on different web browsers (Chrome, Edge & Firefox) to ensure cross-browser compatibility.
 
-6. Cross-Device Testing
+5. Cross-Device Testing
 * Tested the website on various devices and screen sizes to ensure a consistent and user-friendly experience across platforms.
 
-7. Validation
+6. Validation
 
 * Each line of code been meticulously reviewed. Changes were made where necessary, and we're thrilled to report that our work has received unanimous approval from the W3C validators.
   
@@ -394,7 +394,7 @@ Testing was essential to ensure the website functions correctly and meets the de
   
     ![CSS Validator](assets/docs/readme/CSS-validate.png)
 
-8. Performance & Accessibility Best Practices
+7. Performance & Accessibility Best Practices
 
     By adhering to accessibility best practices, we can ensure that our website provides an excellent user experience to a wide range of users.
 
@@ -408,7 +408,7 @@ Testing was essential to ensure the website functions correctly and meets the de
 
     This will be done as our development skills and knowledge increase. 
 
-9. Linter Settings
+8. Linter Settings
     
     The default linter setting on CodeAnywhere were changing the layout for HTML code. Added .prettierrc file and updated settings in IDE to ehance formatting of HTML document in line with industry best practice - HTML code is now layed out like a 'Christmas Tree'.
     
