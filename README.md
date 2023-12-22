@@ -112,22 +112,20 @@ I have selected the colours for the website manually. I had a picture in my mind
 
 ![Colour Pallete](/assets/docs/readme/colour-pallette.png)
 
- * #004225 - Variable name = green - Used as a background colour for header, nav, contact and location sections. Also used to as a text colour for some section headings.
- * #DAA520 - Variable name = gold - Used to colour the double border in nav and header section. Also used to style labels in contact form, and to add hover effects for social media icons.  
- * #E8AB16 - Variable name = yellow: Used to style contact text in Contact & Location sections.
- * #ffd700 - Variable name = metallic-gold: Used to style hover effect on form submit button.
- * #000 - Variable name = black: Used as background colour for footer section. Also used to style award paragraph in Course section. 
- * #666 - Variable name = dark-gray: Used to style paragraph text in Course section.
- * #ccc - Variable name = gray: Used to style borders for Gallery images and form-input fields.
- * #c0c0c0 - Variable name = silver: Used to style borders for div in Membership section.
- * #f0f0f0 - Variable name = light-gray: Used as a background colour in Membership Benefits and Membership Plans sections.
- * #FFFFFF - Variable name = white: Used as background colour throughout site and to style text across website.
+| CSS Variable Name | Hex Code | Comment |
+|---|---|---|
+| green | `#004225` | Used as a background colour for header, nav, contact and location sections. Also used as a text colour for some section headings. |
+| gold | `#DAA520` | Used to colour the double border in nav and header section. Also used to style labels in contact form, and to add hover effects for social media icons. |
+| yellow | `#E8AB16` | Used to style contact text in Contact & Location sections. |
+| #ffd700 | `metallic-gold` | Used to style hover effect on form submit button. |
+| black | `#000` | Used as background colour for footer section. Also used to style award paragraph in Course section. |
+| dark-gray | `#666` | Used to style paragraph text in Course section. |
+| gray | `#ccc` | Used to style borders for Gallery images and form-input fields. |
+| silver | `#c0c0c0` | Used to style borders for div in Membership section. |
+| light-gray | `#f0f0f0` | Used as a background colour in Membership Benefits and Membership Plans sections. |
+| white | `#FFFFFF` | Used as background colour throughout site and to style text across website. |
 
-
-Note:  The colour pallette image was generated using [Coolors](https://coolors.co/ "Coolors"). There is a discrepancy between the color variable names I have used in the CSS code and the names that Coolors has given. This is because the Colour pallette from Coolors was generated after the code for the website had been written.
-
-
-
+Note:  The colour pallette image was generated using [Coolors](https://coolors.co/ "Coolors"). There is a discrepancy between the color variable names I have used in the CSS variable names and the names that Coolors has given the colours. The reason for this is because the Colour pallette from Coolors was generated after the CSS and CSS variable names had been written for the website.
 
 ### Icons
 In our project, we've enriched the user interface by incorporating icons sourced from [Font Awesome](https://fontawesome.com/ "Font Awesome"), a widely-used icon library. These icons provide visual cues and enhance the overall user experience. They are carefully chosen and thoughtfully placed to improve the clarity and aesthetics of the website.
@@ -429,8 +427,11 @@ Testing was essential to ensure the website functions correctly and meets the de
    
 ## Unfixed-Bugs
 
-   1. Linter setting in IDE - Need to fix settings on linter so that it stops adding in "Trailing slash on void elements". I had fixed this issue previously. Unfortunately, when ajusting other settings subsequently another setting has been changed causing the error to reoccur.
-    
+    If I had a bit more time before suproject submission I would carry out the following fixes and updates:
+
+   1. Linter setting in IDE - Fix settings on linter so that it stops adding in "Trailing slash on void elements". I had fixed this issue previously. Unfortunately, when ajusting other settings subsequently another setting has been changed causing the error to reoccur.
+   2. CSS Colour variable names: Update CSS color variable names to match the names in the Coolors pallette. This woudl be done for consistency in naming and to avoid any potential confusion for future users of the code or developers.  
+     
 \
 &nbsp;
 [Back to top](#table-of-contents)
