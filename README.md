@@ -446,12 +446,13 @@ If there was more time before project submission I would carry out the following
 
 1. Linter setting in IDE - Fix settings on linter so that it stops adding in "Trailing slash on void elements". I had fixed this issue previously. Unfortunately, when ajusting other settings in the IDE subsequently another setting has changed causing the error to reoccur. Also need to adjust linter settings for CSS so that comments appear on same line as code. For example
 
-    /_Expand main element to push footer down_/
+    /\*Expand main element to push footer down\*/
+    
     flex: 1 0 auto;
 
-    Should appear one line as follows:
+    Should appear on one line as follows:
 
-    flex: 1 0 auto;  /_Expand main element to push footer down_/
+    flex: 1 0 auto;  /\*Expand main element to push footer down\*/
 
 2. CSS Colour variable names: Update CSS color variable names to match the names in the Coolors pallette graphic above. This would be done for consistency in naming and to avoid any potential confusion for future users of the code or developers.
 
