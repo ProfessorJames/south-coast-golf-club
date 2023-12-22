@@ -44,6 +44,7 @@ Join us, play, and embrace the beauty of the game. Explore our website, and let'
   - [Unfixed-Bugs](#unfixed-bugs)
 - [Deployment](#deployment)
 - [Credits](#credits)
+  - [Working software over comprehensive documentation](#working-software-over-comprehensive-documentation)
     
 # UX
 
@@ -431,7 +432,7 @@ Testing was essential to ensure the website functions correctly and meets the de
    
 ## Unfixed-Bugs
 
-    If I had a bit more time before suproject submission I would carry out the following fixes and updates:
+    If there was more time before project submission I would carry out the following fixes and updates:
 
    1. Linter setting in IDE - Fix settings on linter so that it stops adding in "Trailing slash on void elements". I had fixed this issue previously. Unfortunately, when ajusting other settings subsequently another setting has been changed causing the error to reoccur.
    2. CSS Colour variable names: Update CSS color variable names to match the names in the Coolors pallette. This woudl be done for consistency in naming and to avoid any potential confusion for future users of the code or developers.  
@@ -472,6 +473,11 @@ Inpired by:
 
 Code Institute's Love running
 
+## Working software over comprehensive documentation
+
+- Throughout the development processs the focus was to build a high class website. This resulted in code writing, and testing taking priority over documentation. 
+- With the benefit of experience and hindsight a better balance could be struck on future projects..
+ 
 \
 &nbsp;
 [Back to Top](#table-of-contents)
