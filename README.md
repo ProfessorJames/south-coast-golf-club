@@ -433,14 +433,14 @@ Testing was essential to ensure the website functions correctly and meets the de
    
 ## Unfixed-Bugs
 
-    If there was more time before project submission I would carry out the following fixes and updates:
+   If there was more time before project submission I would carry out the following fixes and updates:
 
    1. Linter setting in IDE - Fix settings on linter so that it stops adding in "Trailing slash on void elements". I had fixed this issue previously. Unfortunately, when ajusting other settings subsequently another setting has been changed causing the error to reoccur. Also adjust linter settings for CSS so that comments appear on same line as code. For example
     
     /* Expand main element to push footer down */
     flex: 1 0 auto;
 
-    Should appear one line line as follows:   
+    Should appear one line as follows:   
     
     flex: 1 0 auto;  /* Expand main element to push footer down */
 
