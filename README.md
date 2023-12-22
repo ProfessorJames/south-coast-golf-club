@@ -419,7 +419,7 @@ Testing was essential to ensure the website functions correctly and meets the de
 
    1.  Web Accessibility testing - When running the website through [Wave](https://wave.webaim.org/report#/https://professorjames.github.io/south-coast-golf-club/ "WAVE") it was showing an error. The error relates to "Empty form label, A form label is present, but does not contain any content". To address this issue I added an aria-hidden="true" to the HTML. Content hidden with aria-hidden="true" is not presented to screen reader users.
    
-   2.  Media Queries - The media queries were providing some trouble with placmenet of the Hero image. This was due to a missing closing tag for one of the media queries. This caused much time spent looking to fix an issue that ultimately due to poor css or poor html. Lesson learned is to check both HTML & CSS code with validators earlier. Also learned to use IDE to format document on save so that any silly missing bracklet issues don't reoccur.
+   2.  Media Queries - The media queries were providing some trouble with placmenet of the Hero image. This was due to a missing closing tag for one of the media queries. Lesson learned is to check both HTML & CSS code with validators earlier. Also learned to use IDE to format document on save so that any silly missing closing tags etc. don't reoccur in future.
    
    3.  CSS - Refactor code tp target specific elements instead of combining element selectors. This allows targeting to be more specific, and helps code to be more reusable.
    
