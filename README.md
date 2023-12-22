@@ -435,8 +435,17 @@ Testing was essential to ensure the website functions correctly and meets the de
 
     If there was more time before project submission I would carry out the following fixes and updates:
 
-   1. Linter setting in IDE - Fix settings on linter so that it stops adding in "Trailing slash on void elements". I had fixed this issue previously. Unfortunately, when ajusting other settings subsequently another setting has been changed causing the error to reoccur.
+   1. Linter setting in IDE - Fix settings on linter so that it stops adding in "Trailing slash on void elements". I had fixed this issue previously. Unfortunately, when ajusting other settings subsequently another setting has been changed causing the error to reoccur. Also adjust linter settings for CSS so that comments appear on same line as code. For example
+    
+    /* Expand main element to push footer down */
+    flex: 1 0 auto;
+
+    Should appear one line line as follows:   
+    
+    flex: 1 0 auto;  /* Expand main element to push footer down */
+
    2. CSS Colour variable names: Update CSS color variable names to match the names in the Coolors pallette. This woudl be done for consistency in naming and to avoid any potential confusion for future users of the code or developers.  
+   
    3. Website performance: An area for focus in the future will be to make adjustments or refactor code to improve performance times in ine with industry best practice for:
       (i) First Contentful Paint, 
       (ii) Largest Contentful Paint, 
